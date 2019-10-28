@@ -25,7 +25,7 @@ O projeto está estruturado em 4 containers Docker.
 
 1. Build do projeto com Docker Composer.
 
-`$ docker-cpmpose build`
+`$ docker-compose build`
 
 2. Iniciar os containers do projeto.
 
