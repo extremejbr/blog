@@ -43,6 +43,9 @@ O projeto está estruturado em 4 containers Docker.
 
 `$ docker-compose exec app php artisan key:generate `
 
-6. A aplicação estará disponível no endpoint
- 'http://localhost:8080'
+6. Permissão de escrita no diretório /var/www/storage
+
+`$ docker-compose exec app chmod -R 777 /var/www/storage`
+
+7. A aplicação estará disponível no endereço 'http://localhost:8080'
 
